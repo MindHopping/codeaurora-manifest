@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
-           review="review.source.android.com" />
+  <remote  name="qcom"
+           fetch="git://git-android.qualcomm.com/"
+           review="review-android.qualcomm.com" />
   <default revision="cupcake"
-           remote="korg" />
+           remote="qcom" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="kernel"
-           name="kernel/common"
-           revision="refs/heads/android-2.6.27" />
+           name="kernel/msm"
+           revision="refs/heads/qcom-msm-2.6.27" />
+
 
   <project path="bionic" name="platform/bionic" />
 
@@ -23,19 +24,24 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
   <project path="prebuilt" name="platform/prebuilt" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -63,15 +69,14 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/QualcommSettings" name="platform/packages/apps/QualcommSettings" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync" />
+  <project path="packages/apps/TSCalibration" name="platform/packages/apps/TSCalibration" />
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -99,6 +104,7 @@
   <project path="external/googleclient" name="platform/external/googleclient" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/icu4c" name="platform/external/icu4c" />
+  <project path="external/iperf" name="platform/external/iperf" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
@@ -127,9 +133,58 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremor" name="platform/external/tremor" />
+  <project path="external/tslib" name="platform/external/tslib" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+
+
+  <project path="vendor/qcom/msm7201a_surf" name="platform/vendor/qcom/msm7201a_surf" />
+  <project path="vendor/qcom/msm7201a_ffa" name="platform/vendor/qcom/msm7201a_ffa" />
+  <project path="vendor/qcom/msm7501a_surf" name="platform/vendor/qcom/msm7501a_surf" />
+  <project path="vendor/qcom/msm7501a_ffa" name="platform/vendor/qcom/msm7501a_ffa" />
+  <project path="vendor/qcom/msm7627_surf" name="platform/vendor/qcom/msm7627_surf" />
+  <project path="vendor/qcom/msm7627_ffa" name="platform/vendor/qcom/msm7627_ffa" />
+  <project path="vendor/qcom/msm7630_surf" name="platform/vendor/qcom/msm7630_surf" />
+  <project path="vendor/qcom/msm7630_ffa" name="platform/vendor/qcom/msm7630_ffa" />
+  <project path="vendor/qcom/qsd8250_surf" name="platform/vendor/qcom/qsd8250_surf" />
+  <project path="vendor/qcom/qsd8250_ffa" name="platform/vendor/qcom/qsd8250_ffa" />
+
+  <project path="vendor/qcom-proprietary/modem/msm7201a_surf" name="platform/vendor/qcom-proprietary/modem/msm7201a_surf" />
+  <project path="vendor/qcom-proprietary/modem/msm7201a_ffa" name="platform/vendor/qcom-proprietary/modem/msm7201a_ffa" />
+  <project path="vendor/qcom-proprietary/modem/msm7501a_surf" name="platform/vendor/qcom-proprietary/modem/msm7501a_surf" />
+  <project path="vendor/qcom-proprietary/modem/msm7501a_ffa" name="platform/vendor/qcom-proprietary/modem/msm7501a_ffa" />
+  <project path="vendor/qcom-proprietary/modem/msm7627_surf" name="platform/vendor/qcom-proprietary/modem/msm7627_surf" />
+  <project path="vendor/qcom-proprietary/modem/msm7627_ffa" name="platform/vendor/qcom-proprietary/modem/msm7627_ffa" />
+  <project path="vendor/qcom-proprietary/modem/msm7630_surf" name="platform/vendor/qcom-proprietary/modem/msm7630_surf" />
+  <project path="vendor/qcom-proprietary/modem/msm7630_ffa" name="platform/vendor/qcom-proprietary/modem/msm7630_ffa" />
+  <project path="vendor/qcom-proprietary/modem/qsd8250_surf" name="platform/vendor/qcom-proprietary/modem/qsd8250_surf" />
+  <project path="vendor/qcom-proprietary/modem/qsd8250_ffa" name="platform/vendor/qcom-proprietary/modem/qsd8250_ffa" />
+<!--
+  Add the opensource repos here once they're created - nasserg
+  <project path="vendor/qcom-opensource/" name="platform/vendor/qcom-opensource/" />
+-->
+  <project path="vendor/qcom-proprietary/bt" name="platform/vendor/qcom-proprietary/bt" />
+  <project path="vendor/qcom-proprietary/common" name="platform/vendor/qcom-proprietary/common" />
+  <project path="vendor/qcom-proprietary/data" name="platform/vendor/qcom-proprietary/data" />
+  <project path="vendor/qcom-proprietary/dejagnu" name="platform/vendor/qcom-proprietary/dejagnu" />
+  <project path="vendor/qcom-proprietary/diag" name="platform/vendor/qcom-proprietary/diag" />
+  <project path="vendor/qcom-proprietary/gles" name="platform/vendor/qcom-proprietary/gles" />
+  <project path="vendor/qcom-proprietary/gps" name="platform/vendor/qcom-proprietary/gps" />
+  <project path="vendor/qcom-proprietary/hardware" name="platform/vendor/qcom-proprietary/hardware" />
+  <project path="vendor/qcom-proprietary/kernel-tests" name="platform/vendor/qcom-proprietary/kernel-tests" />
+  <project path="vendor/qcom-proprietary/mm-audio" name="platform/vendor/qcom-proprietary/mm-audio" />
+  <project path="vendor/qcom-proprietary/mm-camera" name="platform/vendor/qcom-proprietary/mm-camera" />
+  <project path="vendor/qcom-proprietary/mm-core" name="platform/vendor/qcom-proprietary/mm-core" />
+  <project path="vendor/qcom-proprietary/mm-still" name="platform/vendor/qcom-proprietary/mm-still" />
+  <project path="vendor/qcom-proprietary/mm-video" name="platform/vendor/qcom-proprietary/mm-video" />
+  <project path="vendor/qcom-proprietary/neocore" name="platform/vendor/qcom-proprietary/neocore" />
+  <project path="vendor/qcom-proprietary/oncrpc" name="platform/vendor/qcom-proprietary/oncrpc" />
+  <project path="vendor/qcom-proprietary/qcril" name="platform/vendor/qcom-proprietary/qcril" />
+  <project path="vendor/qcom-proprietary/qcril-internal" name="platform/vendor/qcom-proprietary/qcril-internal" />
+  <project path="vendor/qcom-proprietary/qcril-puppetmaster" name="platform/vendor/qcom-proprietary/qcril-puppetmaster" />
+  <project path="vendor/qcom-proprietary/QualcommSettings" name="platform/vendor/qcom-proprietary/QualcommSettings" />
+  <project path="vendor/qcom-proprietary/wlan" name="platform/vendor/qcom-proprietary/wlan" />
 </manifest>
