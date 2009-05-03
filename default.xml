@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="qcom"
-           fetch="git://git-android.qualcomm.com/"
-           review="review-android.qualcomm.com" />
+  <remote  name="quic"
+           fetch="git://git-android.quicinc.com/"
+           review="review-android.quicinc.com" />
   <default revision="cupcake"
-           remote="qcom" />
+           remote="quic" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -12,8 +12,7 @@
 
   <project path="kernel"
            name="kernel/msm"
-           revision="refs/heads/qcom-msm-2.6.27" />
-
+           revision="refs/heads/android-msm-2.6.27" />
 
   <project path="bionic" name="platform/bionic" />
 
@@ -24,9 +23,9 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="frameworks/base" name="platform/frameworks/base" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" />
   <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
@@ -39,9 +38,6 @@
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -69,7 +65,6 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/QualcommSettings" name="platform/packages/apps/QualcommSettings" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -77,6 +72,9 @@
   <project path="packages/apps/TSCalibration" name="platform/packages/apps/TSCalibration" />
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
   <project path="external/aes" name="platform/external/aes" />
   <project path="external/apache-http" name="platform/external/apache-http" />
@@ -139,8 +137,6 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-
-
   <project path="vendor/qcom/msm7201a_surf" name="platform/vendor/qcom/msm7201a_surf" />
   <project path="vendor/qcom/msm7201a_ffa" name="platform/vendor/qcom/msm7201a_ffa" />
   <project path="vendor/qcom/msm7501a_surf" name="platform/vendor/qcom/msm7501a_surf" />
