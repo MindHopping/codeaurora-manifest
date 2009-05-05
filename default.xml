@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
-           review="review.source.android.com" />
-  <default revision="master"
-           remote="korg" />
+  <remote  name="quic"
+           fetch="git://git-android.quicinc.com/"
+           review="review-android.quicinc.com" />
+  <default revision="cupcake"
+           remote="quic" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="kernel"
-           name="kernel/common"
-           revision="refs/heads/android-2.6.27" />
+           name="kernel/msm"
+           revision="refs/heads/android-msm-2.6.27" />
 
   <project path="bionic" name="platform/bionic" />
 
@@ -30,6 +30,8 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
   <project path="prebuilt" name="platform/prebuilt" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
@@ -67,6 +69,7 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync" />
+  <project path="packages/apps/TSCalibration" name="platform/packages/apps/TSCalibration" />
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
 
@@ -80,6 +83,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/dejagnu" name="platform/external/dejagnu" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
@@ -98,6 +102,7 @@
   <project path="external/googleclient" name="platform/external/googleclient" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/icu4c" name="platform/external/icu4c" />
+  <project path="external/iperf" name="platform/external/iperf" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
@@ -126,6 +131,7 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremor" name="platform/external/tremor" />
+  <project path="external/tslib" name="platform/external/tslib" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/xdelta3" name="platform/external/xdelta3" />
