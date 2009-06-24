@@ -87,7 +87,6 @@
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="0710fe601135416662909073aebfd0650059fd19"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="0619fcb2e29126db3b8d1ea48336005574a501cf"/>
   <project name="platform/hardware/msm7k" path="hardware/msm7k" revision="58ee9ff566668118f763bccdcd12a1fe7a1619dc"/>
-  <project name="platform/hardware/qsd8k" path="hardware/qsd8k" revision="48fce095d7f360bd7174e5548f6b39d393cfa6f3"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="1fd588f58635bc86f6ea33a3b66d3a04b20b294f"/>
   <project name="platform/packages/apps/AlarmClock" path="packages/apps/AlarmClock" revision="2c3b87e2105d7d94200ad6401ff7a99dac442c3d"/>
   <project name="platform/packages/apps/Browser" path="packages/apps/Browser" revision="399110adc85afec2be7af84b3db9f48bab52e075"/>
