@@ -131,8 +131,6 @@
   <project name="platform/vendor/qcom/msm7501a_surf" path="vendor/qcom/msm7501a_surf" revision="89757c78a45ed2e8cc80852f1c0b3f72c4136054"/>
   <project name="platform/vendor/qcom/msm7627_ffa" path="vendor/qcom/msm7627_ffa" revision="d605ae32c5f902f522e9bfb6f8fac09984e054da"/>
   <project name="platform/vendor/qcom/msm7627_surf" path="vendor/qcom/msm7627_surf" revision="f3fc922b60a16204cbe4845d51612557739159cc"/>
-  <project name="platform/vendor/qcom/msm7630_ffa" path="vendor/qcom/msm7630_ffa" revision="fdff23f1913b95bcc5ad67549d46441dedddee00"/>
-  <project name="platform/vendor/qcom/msm7630_surf" path="vendor/qcom/msm7630_surf" revision="c33780d21d0b68585c7a38defc18cdae4794f290"/>
   <project name="platform/vendor/qcom/qsd8250_ffa" path="vendor/qcom/qsd8250_ffa" revision="aff4d5b0f498785d1aabf503563ccea7edbbb665"/>
   <project name="platform/vendor/qcom/qsd8250_surf" path="vendor/qcom/qsd8250_surf" revision="86314695ca2578b3c3abd580db1cdf74a9139e39"/>
 </manifest>
