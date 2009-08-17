@@ -92,6 +92,7 @@
   <project name="platform/hardware/qsd8k" path="hardware/qsd8k" revision="48fce095d7f360bd7174e5548f6b39d393cfa6f3"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="e1d7f7b501414740ef40f7998825ba8238b43502"/>
   <project name="platform/packages/apps/AlarmClock" path="packages/apps/AlarmClock" revision="1ad6292faa8f46cd24d0d2a0acd6289d356200e5"/>
+  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="b709ae68b663700bb3e529c4d8c0388f2f0c416c"/>
   <project name="platform/packages/apps/Browser" path="packages/apps/Browser" revision="1e3ca332a06a8be0e285cf0f9804f83dba3e8d9d"/>
   <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="0284e824a9e06a239cac83da2c50cfa353b3e0c1"/>
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="4ef70289366ee37298c43918c63dd981883047e1"/>
@@ -110,6 +111,7 @@
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="ea2e3a8737476dca6744bff8aeeda6727c2e66cd"/>
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="d9200296e04959d21de9c9308eac940cacc98228"/>
   <project name="platform/packages/apps/Sync" path="packages/apps/Sync" revision="93eecff876db2cf05e199d6feeea13e4e70b1b43"/>
+  <project name="platform/packages/apps/TSCalibration" path="packages/apps/TSCalibration" revision="0d184ae49ce8128f721815c54d8251a0c8dce15f"/>
   <project name="platform/packages/apps/Updater" path="packages/apps/Updater" revision="7dd76deaf14c5e12d43ac83a297434a552bd6cb2"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer" revision="5d55a4c1f6403979222eaae567c399bf68225cc7"/>
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="f67888433275faaead497739a8d740ab954414db"/>
