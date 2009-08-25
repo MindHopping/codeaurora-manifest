@@ -3,16 +3,14 @@
   <remote  name="caf"
            fetch="git://codeaurora.org/"
            review="codeaurora.org" />
-  <default revision="donut"
+  <default revision="donut_cinnamon"
            remote="caf" />
   
   <project path="build" name="platform/build" />
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="kernel"
-           name="kernel/msm"
-           revision="refs/heads/android-msm-2.6.29" />
+  <project path="kernel" name="kernel/msm" />
 
   <project path="bionic" name="platform/bionic" />
 
@@ -135,5 +133,5 @@
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="vendor/qcom/msm7501a_surf" name="platform/vendor/qcom/msm7501a_surf" />
+  <project path="vendor/qcom/msm7627_surf" name="platform/vendor/qcom/msm7627_surf" />
 </manifest>
