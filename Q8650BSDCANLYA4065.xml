@@ -4,7 +4,6 @@
   
   <default remote="caf" revision="eclair"/>
   
-  <project name="graphics/adreno200" path="vendor/qcom-proprietary/gles/adreno200" revision="92e1aa17a6842586977c5b9ad3e9cc9aa6208f03"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="355ef6378015a4333737459472577b1fa91c6ae9"/>
   <project name="kernel/msm" path="kernel" revision="4c2f8f15288eb146ece7765e78d17816f6ed9a38"/>
   <project name="platform/bionic" path="bionic" revision="ca0d5ffd60af813fd6502f3a2ce47afc7c43632b"/>
