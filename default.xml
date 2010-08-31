@@ -56,6 +56,7 @@
   <project name="platform/external/grub" path="external/grub" />
   <project name="platform/external/gtest" path="external/gtest" />
   <project name="platform/external/guava" path="external/guava" />
+  <project name="platform/external/hostap-06" path="external/hostap-06" />
   <project name="platform/external/icu4c" path="external/icu4c" />
   <project name="platform/external/iproute2" path="external/iproute2" />
   <project name="platform/external/ipsec-tools" path="external/ipsec-tools" />
@@ -138,6 +139,7 @@
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone" />
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" />
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" />
+  <project name="platform/packages/apps/QualcommSoftAP" path="packages/apps/QualcommSoftAP" />
   <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" />
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings" />
   <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" />
@@ -168,6 +170,7 @@
   <project name="platform/system/core" path="system/core" />
   <project name="platform/system/extras" path="system/extras" />
   <project name="platform/system/netd" path="system/netd" />
+  <project name="platform/system/qcom" path="system/qcom" />
   <project name="platform/system/vold" path="system/vold" />
   <project name="platform/system/wlan/ti" path="system/wlan/ti" />
   <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex" />
