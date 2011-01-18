@@ -12,7 +12,7 @@
   <project name="device/sample" />
   <project name="device/samsung/crespo" />
   <project name="kernel/lk" path="bootable/bootloader/lk" />
-  <project name="kernel/msm" path="kernel" />
+  <project name="kernel/msm" path="kernel" revision="refs/heads/android-msm-2.6.35"/>
   <project name="platform/bionic" path="bionic" />
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" />
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" />
