@@ -203,6 +203,7 @@
   <project path="device/qcom/msm7630_fusion" name="platform/vendor/qcom/msm7630_fusion" />
   <project path="device/qcom/msm8660_surf" name="platform/vendor/qcom/msm8660_surf" />
   <project path="device/qcom/msm8960" name="platform/vendor/qcom/msm8960" />
+  <project path="device/qcom/copper" name="platform/vendor/qcom/copper" />
 
   <project path="vendor/qcom/opensource/bt-wlan-coex" name="platform/vendor/qcom-opensource/bt-wlan-coex" revision="refs/heads/master" />
   <project path="vendor/qcom/opensource/diag" name="platform/vendor/qcom-opensource/diag" revision="refs/heads/master" />
