@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch=".." />
-  <default revision="ics-mr0"
-           remote="aosp"
-           sync-j="4" />
+  <remote name="caf"
+      fetch="git://codeaurora.org/"
+      review="codeaurora.org" />
+  <default revision="ics"
+           remote="caf" />
 
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -155,6 +155,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="hardware/qcom/alsa_sound" name="platform/hardware/alsa_sound" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
@@ -231,4 +232,45 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
+  <project path="kernel" name="kernel/msm" revision="refs/heads/msm-3.0" />
+
+  <project path="bootable/bootloader/lk" name="kernel/lk" revision="refs/heads/master" />
+
+  <project path="external/alljoyn/alljoyn_core" name="platform/external/alljoyn/alljoyn_core" revision="refs/heads/experimental"/>
+  <project path="external/alljoyn/common" name="platform/external/alljoyn/common" revision="refs/heads/master"/>
+  <project path="external/bson" name="platform/external/bson" />
+  <project path="external/connectivity" name="platform/external/connectivity" revision="refs/heads/master" />
+  <project path="external/curl" name="platform/external/curl" revision="refs/heads/master" />
+  <project path="external/hostap-06" name="platform/external/hostap-06" revision="refs/heads/master" />
+  <project path="external/powertop" name="platform/external/powertop" revision="refs/heads/master" />
+  <project path="external/tslib" name="platform/external/tslib" revision="refs/heads/master" />
+  <project path="packages/apps/FM" name="platform/packages/apps/FM" revision="refs/heads/master" />
+  <project path="packages/apps/QualcommSoftAP" name="platform/packages/apps/QualcommSoftAP" revision="refs/heads/master" />
+  <project path="packages/apps/TSCalibration" name="platform/packages/apps/TSCalibration" revision="refs/heads/master" />
+  <project path="system/qcom" name="platform/system/qcom" revision="refs/heads/master" />
+  <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="refs/heads/master" />
+
+  <project path="device/qcom/common" name="device/qcom/common" />
+  <project path="device/qcom/msm7627_surf" name="platform/vendor/qcom/msm7627_surf" />
+  <project path="device/qcom/msm7627_6x" name="platform/vendor/qcom/msm7627_6x" revision="refs/heads/master" />
+  <project path="device/qcom/msm7627a" name="platform/vendor/qcom/msm7627a" />
+  <project path="device/qcom/msm7630_surf" name="platform/vendor/qcom/msm7630_surf" />
+  <project path="device/qcom/msm7630_fusion" name="platform/vendor/qcom/msm7630_fusion" />
+  <project path="device/qcom/msm8660_surf" name="platform/vendor/qcom/msm8660_surf" />
+  <project path="device/qcom/msm8960" name="platform/vendor/qcom/msm8960" />
+  <project path="device/qcom/copper" name="platform/vendor/qcom/copper" />
+
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
+  <project path="vendor/qcom/opensource/battery_monitor" name="platform/vendor/qcom-opensource/battery_monitor" revision="refs/heads/master" />
+  <project path="vendor/qcom/opensource/bt-wlan-coex" name="platform/vendor/qcom-opensource/bt-wlan-coex" revision="refs/heads/master" />
+  <project path="vendor/qcom/opensource/diag" name="platform/vendor/qcom-opensource/diag" revision="refs/heads/master" />
+  <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" revision="refs/heads/master" />
+
+  <project path="vendor/qcom/opensource/omx/mm-audio" name="platform/vendor/qcom-opensource/omx/mm-audio" revision="refs/heads/master" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" revision="refs/heads/master" />
+  <project path="vendor/qcom/opensource/omx/mm-video" name="platform/vendor/qcom-opensource/omx/mm-video" revision="refs/heads/master" />
+
+  <project path="vendor/qcom/opensource/time-services" name="platform/vendor/qcom-opensource/time-services" revision="refs/heads/master" />
+  <project path="vendor/qcom/opensource/webkit" name="platform/vendor/qcom-opensource/webkit" revision="refs/heads/master" />
 </manifest>
