@@ -1,7 +1,7 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   
-  <default remote="caf" revision="ics_chocolate_rb1.6"/>
+  <default remote="caf" revision="ics_chocolate_rb1.7"/>
   
   <project name="device/common"/>
   <project name="device/generic/goldfish"/>
