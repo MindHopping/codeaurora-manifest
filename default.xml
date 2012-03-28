@@ -46,6 +46,7 @@
   <project name="platform/external/chromium" path="external/chromium"/>
   <project name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/collada" path="external/collada"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="refs/heads/master"/>
   <project name="platform/external/connectivity" path="external/connectivity" revision="refs/heads/master"/>
   <project name="platform/external/curl" path="external/curl" revision="refs/heads/master"/>
   <project name="platform/external/dbus" path="external/dbus"/>
