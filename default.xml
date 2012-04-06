@@ -125,6 +125,7 @@
   <project name="platform/external/qemu" path="external/qemu"/>
   <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios"/>
   <project name="platform/external/quake" path="external/quake"/>
+  <project name="platform/external/replicaisland" path="external/replicaisland"/>
   <project name="platform/external/safe-iop" path="external/safe-iop"/>
   <project name="platform/external/skia" path="external/skia"/>
   <project name="platform/external/sonivox" path="external/sonivox"/>
