@@ -175,6 +175,7 @@
   <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
+  <project name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
@@ -219,6 +220,7 @@
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
+  <project name="platform/packages/apps/gestures" path="packages/apps/gestures"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
