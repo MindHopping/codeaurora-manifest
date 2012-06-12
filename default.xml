@@ -11,7 +11,7 @@
   <project name="device/samsung/tuna"/>
   <project name="device/ti/panda"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="refs/heads/master"/>
-  <project name="kernel/msm" path="kernel" revision="refs/heads/msm-3.0"/>
+  <project name="kernel/msm" path="kernel" revision="refs/heads/msm-3.4"/>
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
