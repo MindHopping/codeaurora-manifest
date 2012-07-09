@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="ics_rb4.2"/>
+  <default remote="caf" revision="ics_rb4.3"/>
   <project name="device/common"/>
   <project name="device/generic/goldfish"/>
   <project name="device/google/accessory/arduino"/>
@@ -87,6 +87,7 @@
   <project name="platform/external/jsr305" path="external/jsr305"/>
   <project name="platform/external/junit" path="external/junit"/>
   <project name="platform/external/kernel-headers" path="external/kernel-headers"/>
+  <project name="platform/external/kissfft" path="external/kissfft"/>
   <project name="platform/external/libffi" path="external/libffi"/>
   <project name="platform/external/libgsm" path="external/libgsm"/>
   <project name="platform/external/liblzf" path="external/liblzf"/>
@@ -103,6 +104,7 @@
   <project name="platform/external/markdown" path="external/markdown"/>
   <project name="platform/external/mesa3d" path="external/mesa3d"/>
   <project name="platform/external/mksh" path="external/mksh"/>
+  <project name="platform/external/mobicore" path="external/mobicore"/>
   <project name="platform/external/mockwebserver" path="external/mockwebserver"/>
   <project name="platform/external/mtpd" path="external/mtpd"/>
   <project name="platform/external/netcat" path="external/netcat"/>
@@ -175,6 +177,7 @@
   <project name="platform/hardware/msm7k" path="hardware/msm7k"/>
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display"/>
+  <project name="platform/hardware/qcom/gestures" path="hardware/qcom/gestures"/>
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project name="platform/hardware/ril" path="hardware/ril"/>
@@ -219,6 +222,7 @@
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/VideoEditor" path="packages/apps/VideoEditor"/>
   <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
+  <project name="platform/packages/apps/gestures" path="packages/apps/gestures"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
@@ -253,6 +257,7 @@
   <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex"/>
   <project name="platform/vendor/qcom-opensource/diag" path="vendor/qcom/opensource/diag"/>
   <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="vendor/qcom/opensource/kernel-tests/mm-audio"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel/kernel-tests"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-audio" path="vendor/qcom/opensource/omx/mm-audio"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-video" path="vendor/qcom/opensource/omx/mm-video"/>
