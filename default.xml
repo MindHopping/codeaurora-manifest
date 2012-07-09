@@ -87,6 +87,7 @@
   <project name="platform/external/jsr305" path="external/jsr305"/>
   <project name="platform/external/junit" path="external/junit"/>
   <project name="platform/external/kernel-headers" path="external/kernel-headers"/>
+  <project name="platform/external/kissfft" path="external/kissfft"/>
   <project name="platform/external/libffi" path="external/libffi"/>
   <project name="platform/external/libgsm" path="external/libgsm"/>
   <project name="platform/external/liblzf" path="external/liblzf"/>
