@@ -305,6 +305,7 @@
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
+  <project name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf"/>
   <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf"/>
   <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960"/>
 </manifest>
