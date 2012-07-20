@@ -54,6 +54,7 @@
   <project name="platform/external/chromium-trace" path="external/chromium-trace"/>
   <project name="platform/external/cibu-fonts" path="external/cibu-fonts"/>
   <project name="platform/external/clang" path="external/clang"/>
+  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="refs/heads/master"/>
   <project name="platform/external/compiler-rt" path="external/compiler-rt"/>
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dexmaker" path="external/dexmaker"/>
