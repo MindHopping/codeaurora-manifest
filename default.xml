@@ -261,6 +261,7 @@
   <project name="platform/vendor/qcom-opensource/omx/mm-audio" path="vendor/qcom/opensource/omx/mm-audio"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-video" path="vendor/qcom/opensource/omx/mm-video"/>
+  <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8"/>
   <project name="platform/vendor/qcom-opensource/webkit" path="vendor/qcom/opensource/webkit"/>
