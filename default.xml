@@ -55,6 +55,7 @@
   <project name="platform/external/cibu-fonts" path="external/cibu-fonts"/>
   <project name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/compiler-rt" path="external/compiler-rt"/>
+  <project name="platform/external/connectivity" path="external/connectivity" revision="refs/heads/master"/>
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dexmaker" path="external/dexmaker"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
