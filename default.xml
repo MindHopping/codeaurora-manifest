@@ -56,6 +56,7 @@
   <project name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="refs/heads/master"/>
   <project name="platform/external/compiler-rt" path="external/compiler-rt"/>
+  <project name="platform/external/connectivity" path="external/connectivity" revision="refs/heads/master"/>
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dexmaker" path="external/dexmaker"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
@@ -305,6 +306,7 @@
   <project name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
+  <project name="platform/vendor/qcom/copper" path="device/qcom/msm8974"/>
   <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
   <project name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf"/>
   <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf"/>
