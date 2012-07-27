@@ -48,6 +48,7 @@
   <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle"/>
   <project name="platform/external/bsdiff" path="external/bsdiff"/>
+  <project name="platform/external/bson" path="external/bson"/>
   <project name="platform/external/bzip2" path="external/bzip2"/>
   <project name="platform/external/checkpolicy" path="external/checkpolicy"/>
   <project name="platform/external/chromium" path="external/chromium"/>
@@ -55,6 +56,8 @@
   <project name="platform/external/cibu-fonts" path="external/cibu-fonts"/>
   <project name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/compiler-rt" path="external/compiler-rt"/>
+  <project name="platform/external/connectivity" path="external/connectivity" revision="refs/heads/master"/>
+  <project name="platform/external/curl" path="external/curl" revision="refs/heads/master"/>
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dexmaker" path="external/dexmaker"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
