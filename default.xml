@@ -130,6 +130,7 @@
   <project name="platform/external/mdnsresponder" path="external/mdnsresponder"/>
   <project name="platform/external/mesa3d" path="external/mesa3d"/>
   <project name="platform/external/mksh" path="external/mksh"/>
+  <project name="platform/external/mobicore" path="external/mobicore"/>
   <project name="platform/external/mockwebserver" path="external/mockwebserver"/>
   <project name="platform/external/mtpd" path="external/mtpd"/>
   <project name="platform/external/naver-fonts" path="external/naver-fonts"/>
