@@ -35,6 +35,8 @@
   <project name="platform/development" path="development"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com"/>
   <project name="platform/external/aac" path="external/aac"/>
+  <project name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core" revision="refs/heads/master"/>
+  <project name="platform/external/alljoyn/common" path="external/alljoyn/common" revision="refs/heads/master"/>
   <project name="platform/external/android-mock" path="external/android-mock"/>
   <project name="platform/external/antlr" path="external/antlr"/>
   <project name="platform/external/apache-harmony" path="external/apache-harmony"/>
