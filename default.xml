@@ -153,6 +153,7 @@
   <project name="platform/external/protobuf" path="external/protobuf"/>
   <project name="platform/external/qemu" path="external/qemu"/>
   <project name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios"/>
+  <project name="platform/external/qrngd" path="external/qrngd"/>
   <project name="platform/external/quake" path="external/quake"/>
   <project name="platform/external/regex-re2" path="external/regex-re2"/>
   <project name="platform/external/replicaisland" path="external/replicaisland"/>
@@ -313,6 +314,7 @@
   <project name="platform/system/security" path="system/security"/>
   <project name="platform/system/vold" path="system/vold"/>
   <project name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="refs/heads/master"/>
   <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
   <project name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf"/>
   <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf"/>
