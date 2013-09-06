@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="kitkat_pdk"/>
+  <project groups="pdk,default" name="quic/private-android-generic/device/generic/armv7-a-neon" revision="1340d2d5334961dfaf08b8d8c74ed76e7289b698"/>
+  <project groups="pdk,default" name="quic/private-android-generic/device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461"/>
+  <project groups="pdk,default" name="quic/private-android-generic/device/generic/goldfish" revision="3ad13188d4e7e873947040ec22a35d73efb76812"/>
+  <project groups="pdk,default" name="quic/private-android-generic/device/generic/mini-emulator-armv7-a-neon" revision="9494d18d2b95e5c6c7b990d8d8676301e2e19337"/>
+  <project groups="pdk,default" name="quic/private-android-generic/device/generic/mini-emulator-mips" revision="2ff06dda649ba43507a911057f7854a3373ef7d6"/>
+  <project groups="pdk,default" name="quic/private-android-generic/device/generic/mini-emulator-x86" revision="a2f05b8c5259c232be5b029b2d5e721ba3f70917"/>
+  <project groups="pdk,default" name="quic/private-android-generic/device/generic/mips" revision="cba3ddadffd8f92b453b74ea1f2886df3be35314"/>
+  <project groups="pdk,default" name="quic/private-android-generic/device/generic/x86" revision="8933282b14fbbd2f43ff2187174fcdd22bea0ee8"/>
+  <project groups="default" name="quic/private-android-generic/device/qcom/common" revision="8d70c9950be3d547c302919db3dd0e93dd75ce50">
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
+  <project groups="pdk,default" name="quic/private-android-generic/device/sample" revision="d1016076f79c7fa9a4e6c40e3350d7c908577753"/>
+  <project groups="default" name="quic/private-android-generic/kernel/lk" path="bootable/bootloader/lk" revision="b7f9f64b40cba9740fb00654cd298d8d2fe6664d"/>
+  <project groups="default" name="quic/private-android-generic/kernel/msm" path="kernel" revision="309ccbce699d815146499a4441a0d989bb330099"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/abi/cpp" path="abi/cpp" revision="18f1b5e28734183ff8073fe86dc46bc4ebba8a59"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/bionic" path="bionic" revision="da4bedf52f82dff178eff57ea099bb3f326304b1"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/bootable/recovery" path="bootable/recovery" revision="239ac6abac4524be93fce710360c0512c6cc2ab3"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/build" path="build" revision="a23f7898f2318fd2ecd7036c6421b1e1382bf1eb">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/aac" path="external/aac" revision="206a397c708738c08edc0229881018edcb8ea793"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/bison" path="external/bison" revision="c2418b886165add7f5a31fc5609f0ce2d004a90e"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="247c68fe6eee3660cbdcf4509195fe735ae25573"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/bsdiff" path="external/bsdiff" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/bzip2" path="external/bzip2" revision="1cb636bd8e9e5cdfd5d5b2909a122f6e80db62de"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/checkpolicy" path="external/checkpolicy" revision="0d73ef7049feee794f14cf1af88d05dae8139914"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/chromium-trace" path="external/chromium-trace" revision="8252ae6b83ea65cf871e7981e981da07379f5a0f"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/clang" path="external/clang" revision="a902511dd22624b15cc61e36d167d1cf3549bc74"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/compiler-rt" path="external/compiler-rt" revision="7cba5f1d950495b02bc8da53d27bdbb1b0d4f117"/>
+  <project groups="default" name="quic/private-android-generic/platform/external/connectivity" path="external/connectivity" revision="3a664fa51724a37727dc713d0d77bea70219ab18"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/dnsmasq" path="external/dnsmasq" revision="41d356427a632f5336384bfa45c8420ffc274f66"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/e2fsprogs" path="external/e2fsprogs" revision="79bb471a35cc79c62966941755a066ddbfd76350"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/expat" path="external/expat" revision="0af0cb3bc7519e567bd9daff3dcd315ab0134a99"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/flac" path="external/flac" revision="ab37b6247df0e8c4ec0ccaa870e667f62c74975b"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/freetype" path="external/freetype" revision="899c67b6cfcd2010784fbf08c5415af16c526e0c"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/gcc-demangle" path="external/gcc-demangle" revision="9241386b62c353302c2f9eccda0672685b252b4d"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/gtest" path="external/gtest" revision="0f1ce3dd0b880b6ae0cf7f5413702b8ef542efb2"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/icu4c" path="external/icu4c" revision="b2947208d367c2311d18614aad1b7d7932aaaad2"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/iproute2" path="external/iproute2" revision="8ce66c510d4e317883bd3fcdf552e7c5fa500a50"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/jhead" path="external/jhead" revision="31b17e69a87e4caa50f9c6b1a47c84ef75f79d83"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/jpeg" path="external/jpeg" revision="6a3be8dfbb7c258e7fbbd11f1078bf11c9be89bd"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/libgsm" path="external/libgsm" revision="50761abed8f4734970874165b386cfd4d9599db4"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/libnfc-nci" path="external/libnfc-nci" revision="09de1b298ad4237ba50018d28086c0430da8c23e"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/libnfc-nxp" path="external/libnfc-nxp" revision="42f5b41d22bbbad1b16b9cd3aba0512a399f32a6"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/libnl-headers" path="external/libnl-headers" revision="6ccf7349d61f73ac26a0675d735d903ab919c658"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/libpng" path="external/libpng" revision="b5e7fb4c103b3898cb78e9f7615cf7893626a5e9"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/libselinux" path="external/libselinux" revision="1e2cf2c4a2d15a9b1ca2d353b99fb6884413ffe1"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/libsepol" path="external/libsepol" revision="b0e0162a246f2c051427154909c0ecd694cc4805"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/libvpx" path="external/libvpx" revision="f3bed9137f66ef693bd406e43b17e9a1114f1e14"/>
+  <project groups="default" name="quic/private-android-generic/platform/external/libxml2" path="external/libxml2" revision="fd4eedcffde6692a35159ab3eb809dce77fc0c2f"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/llvm" path="external/llvm" revision="5d63c52424acc972d6370c50e1f3930d695790b7"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/mdnsresponder" path="external/mdnsresponder" revision="c46f53f5e072f23051c4eedef730386f7634dc11"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/mksh" path="external/mksh" revision="f8c396c4d446a038358106a301b329607a04633d"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/openssl" path="external/openssl" revision="afd3666daae38a89eb3369a19dfd171fb82c2979"/>
+  <project groups="pdk-java,default" name="quic/private-android-generic/platform/external/proguard" path="external/proguard" revision="54f59ac04f3e21d5aecdd46bb1e7f4577924ab92"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/protobuf" path="external/protobuf" revision="48ee66d295979372ed0234cefda42385daae8312"/>
+  <project groups="default" name="quic/private-android-generic/platform/external/protobuf-c" path="external/protobuf-c" revision="f5acb16b4e8b57f5be4083960023982443bddbca"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/scrypt" path="external/scrypt" revision="eb05b73c3bba21fff55529813109de4bad5ddbd1"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/sepolicy" path="external/sepolicy" revision="da952e12419fbfe103339ba4733884e40f879ee5"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/sonivox" path="external/sonivox" revision="2dbbd3bac0f0e819d196a80cc7855054148ef8b6"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/sqlite" path="external/sqlite" revision="bde763528bf07086d010f3a89db0b9475bf7a7d3"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/stlport" path="external/stlport" revision="628e14d37c5b239839a466e81c74bf66255b770b"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/tinyalsa" path="external/tinyalsa" revision="36ea2d824e5d8af550c139da9da20e73f82a9ae1"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/tinyxml" path="external/tinyxml" revision="494e448824844d866e805831d1d5f5acb654065c"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/tinyxml2" path="external/tinyxml2" revision="c74b546f5af36968ffa56d7fd4529f4273b96f48"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/tremolo" path="external/tremolo" revision="3eec17965b3e2974e120e864b351a916f59835ba"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/valgrind" path="external/valgrind" revision="99cfba5460bef5032a52e432ce0936b731e6d8e2"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/webrtc" path="external/webrtc" revision="446452f84e9cc4c75d8e80f6f05e24793397a19d"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="b7b4d0ec07161a6d76c40ba7ef1306e82fbb7e15"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/yaffs2" path="external/yaffs2" revision="a2cff2275e1b501ff478b03757d6e4f05fddc2db"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/external/zlib" path="external/zlib" revision="f8216f042375c79640f7319964dcffbb2b39f66e"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/frameworks/av" path="frameworks/av" revision="49bb14b0721601358515b8f975a3ddffbd2bae8d"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="eab740276cffc3f762345018a9ab2472ccaa893d"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="89a5648fcb366adb25b75aa69a7ad9a34842dd17"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="003ac666e57669d4312b5792068c3db302ee7b84"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/frameworks/native" path="frameworks/native" revision="fa2aaeeabd4353d0e0b7ed215f8049dad1c180d3"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/frameworks/opt/telephony" path="frameworks/opt/telephony" revision="2d3ade1cb225f07b1dea71cc92b1fd4afad025cf"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/frameworks/rs" path="frameworks/rs" revision="5987064b16c538431f5a8a5fd561019eb1ba8c80"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="1c9185b44c6df2cdeb8eb27c12cb23465dd3aa2d"/>
+  <project groups="broadcom_wlan,default" name="quic/private-android-generic/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="f3edd27baa1a672542900665774d8af6b1bc71f2"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/hardware/libhardware" path="hardware/libhardware" revision="59caeb14a7cb7cbc74db725343922c81f0e2e3aa"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="fe97ee4b99079fe4fed7151d3c7234a46900303c"/>
+  <project groups="qcom,default" name="quic/private-android-generic/platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="7951576278e012351381ff75eb8d43b66796b798"/>
+  <project groups="qcom,default" name="quic/private-android-generic/platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="cf314a462ba06f4bd3352d5d4630edcf6edbbe97"/>
+  <project groups="qcom,default" name="quic/private-android-generic/platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="680f8b88f6fb25d8e41723e4c9d5c3971577fdeb"/>
+  <project groups="qcom,default" name="quic/private-android-generic/platform/hardware/qcom/display" path="hardware/qcom/display" revision="28465b957c53b750ac4bfe2f2f3f228ca538d47f"/>
+  <project groups="qcom,default" name="quic/private-android-generic/platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="baa4c49dc6f5551bab2e28160e963b742bd0dbcb"/>
+  <project groups="qcom,default" name="quic/private-android-generic/platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="27e66b721ed6472fb319b0421ca460713a1b2df5"/>
+  <project groups="qcom,default" name="quic/private-android-generic/platform/hardware/qcom/media" path="hardware/qcom/media" revision="0a0a8e11333674672f794bc6cd55db2e6bc00727"/>
+  <project groups="qcom_msm8x74,default" name="quic/private-android-generic/platform/hardware/qcom/msm8x74" path="hardware/qcom/msm8x74" revision="d4e299a562a7597a461ba7d7a912a951ebaa2642"/>
+  <project groups="qcom,default" name="quic/private-android-generic/platform/hardware/qcom/sensors" path="hardware/qcom/sensors" revision="07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8"/>
+  <project groups="qcom_wlan,default" name="quic/private-android-generic/platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="1e245097f7b808cf8dd68ffe9b0edcc371280d60"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/hardware/ril" path="hardware/ril" revision="b318ddd2ca6ece875dd028d5dac3a1a82bec1751"/>
+  <project groups="pdk-java,default" name="quic/private-android-generic/platform/libnativehelper" path="libnativehelper" revision="52c2312b9e12d74068dff23e106be1af0f26251a"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/pdk" path="pdk" revision="9d42c135c172cab66b7eca856cd578ed85d512f6"/>
+  <project groups="pdk,darwin,default" name="quic/private-android-generic/platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1" revision="426233405bef3c7c825095ab14256c3773894b9b"/>
+  <project groups="pdk,darwin,default" name="quic/private-android-generic/platform/prebuilts/clang/darwin-x86/3.2" path="prebuilts/clang/darwin-x86/3.2" revision="af856d77b3cbb1f6afccdc531bee991403c28907"/>
+  <project groups="pdk,linux,default" name="quic/private-android-generic/platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1" revision="e95b4ce22c825da44d14299e1190ea39a5260bde"/>
+  <project groups="pdk,linux,default" name="quic/private-android-generic/platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" revision="471afab478649078ad7c75ec6b252481a59e19b8"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/prebuilts/eclipse" path="prebuilts/eclipse" revision="76f99d69c6843137da55d1a28c81920ac453ec15"/>
+  <project groups="pdk,darwin,arm,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" revision="21b2cba584638ed5ffad8e3fd3e6808bfa299cf0"/>
+  <project groups="pdk,darwin,arm,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" revision="26cb1865482ce3d9dd47ff5766180f3e7ade98ec"/>
+  <project groups="pdk,darwin,arm,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="0f74cbc89b93c4db7fbf737f561cd69221f779a7"/>
+  <project groups="pdk,darwin,arm,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" revision="9a80d8ace620a6ba1396bfef04ff97c476a7f8ee"/>
+  <project groups="pdk,darwin,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/host/headers" path="prebuilts/gcc/darwin-x86/host/headers" revision="4ac4f7cc41cf3c9e36fc3d6cf37fd1cfa9587a68"/>
+  <project groups="pdk,darwin,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" revision="faf1fe26a2fa161dad020308db59d96cdfabdd1e"/>
+  <project groups="pdk,darwin,mips,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" revision="837cdd9b3ac7231daaf961056c7505843130f667"/>
+  <project groups="pdk,darwin,mips,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" revision="23b86b6afa0287d2b45ba03ef347a6a6fcd104f3"/>
+  <project groups="pdk,darwin,x86,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" revision="042d6130038c95be86fcea5dddda2db07bd5aa27"/>
+  <project groups="pdk,darwin,x86,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" revision="b8d6b5d787751a78c0a1d38f209037a933b2371b"/>
+  <project groups="pdk,darwin,x86,default" name="quic/private-android-generic/platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" revision="4ddebe05a38829b8630c9271019895ed68d78ec1"/>
+  <project groups="pdk,linux,arm,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb"/>
+  <project groups="pdk,linux,arm,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="8b880805d454664b3eed11d0f053cdeafa1ff06e"/>
+  <project groups="pdk,linux,arm,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" revision="71c99ec3db1503a2124d5e287097d58b964deef7"/>
+  <project groups="pdk,linux,arm,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" revision="a1e239a0bb5cd1d69680bf1075883aa9a7bf2429"/>
+  <project groups="pdk,linux,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" revision="10191e2f442c5409cb70783508658d474612a97e"/>
+  <project groups="pdk,linux,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="95bb5b66b3ec5769c3de8d3f25d681787418e7d2"/>
+  <project groups="pdk,linux,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="ebdad82e61c16772f6cd47e9f11936bf6ebe9aa0"/>
+  <project groups="pdk,linux,mips,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" revision="90fc0bd53f2d07ef2383bfad53671f76801c740e"/>
+  <project groups="pdk,linux,mips,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" revision="e5c0976a142054784f7b695018448f7288c4fe58"/>
+  <project groups="pdk,linux,x86,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" revision="b9ebba077c2f62e930b16240d7f3ad61f1ad1dfc"/>
+  <project groups="pdk,linux,x86,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" revision="c7931763d41be602407ed9d71e2c0292c6597e00"/>
+  <project groups="pdk,linux,x86,default" name="quic/private-android-generic/platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" revision="bbe08f8958377ba3a06f4081ed13b2399db448fb"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/prebuilts/misc" path="prebuilts/misc" revision="53bb38934e713f841e8c07b55b1a2d5a2adeadb2"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/prebuilts/ndk" path="prebuilts/ndk" revision="4681e74532985ab2d69c920267428b82305f8196"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="21a68e06a104be3f98d776a5bb34ec98643c5bc9"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/prebuilts/sdk" path="prebuilts/sdk" revision="22b33f2e5431b923c96999124bb08e1e536e9381"/>
+  <project groups="pdk,tools,default" name="quic/private-android-generic/platform/prebuilts/tools" path="prebuilts/tools" revision="cbcb71c219474be74da89d8b918b7aa3b102fdf6"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/system/core" path="system/core" revision="bafe1f8e25d3d4bacd849b54b01a7f51a8e2ec9b"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/system/extras" path="system/extras" revision="991bcd464d67c3cff76477140331619ff138aafc"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/system/media" path="system/media" revision="704d1287124b7583e52fe1705043838b1f954f7d"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/system/netd" path="system/netd" revision="9b3cd7635caf5948d7d4b11f8f588c9d2811d58e"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/system/security" path="system/security" revision="48772e0fe92c75e02a5ea92a6fbfdd0203c910ae"/>
+  <project groups="pdk,default" name="quic/private-android-generic/platform/system/vold" path="system/vold" revision="b9a7179207bb7b2a40a22215919958dbc393334f"/>
+  <project groups="vendor,broadcom_nfc,default" name="quic/private-android-generic/platform/vendor/broadcom/nfc" path="vendor/broadcom/nfc" revision="2db0f48eadf8b6a40d7f050fde373ee45afdadc4"/>
+  <project groups="default" name="quic/private-android-generic/platform/vendor/pdk/data/cts" path="vendor/pdk/data/cts" revision="213204e3c62a968674305de2d2b8cf42ff4bc051"/>
+  <project groups="default" name="quic/private-android-generic/platform/vendor/pdk/data/docs" path="vendor/pdk/data/docs" revision="42908af9040779195c90cca99cfe7e2fbc234dbd"/>
+  <project groups="default" name="quic/private-android-generic/platform/vendor/pdk/mini_armv7a_neon/mini_armv7a_neon-userdebug/platform" path="vendor/pdk/mini_armv7a_neon/mini_armv7a_neon-userdebug/platform" revision="e290f5b0e29f5641f4b7e614b214f566bc6ffabf" sync-c="true"/>
+  <project groups="default" name="quic/private-android-generic/platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="042f5604450f8a7f1dd4adeafc9f43cd47598da3"/>
+  <project groups="default" name="quic/private-android-generic/platform/vendor/qcom/copper" path="device/qcom/msm8974" revision="40cc6edc191b2ce9b785d7eb91f4d069ce84f877"/>
+  <project groups="default" name="quic/private-android-generic/platform/vendor/qcom/msm8226" path="device/qcom/msm8226" revision="07375fdcb3fd26bc7418165d83bec49ece0bddff"/>
+  <project groups="default" name="quic/private-android-generic/platform/vendor/qcom/msm8610" path="device/qcom/msm8610" revision="ea6ac9781ca55d31f19805bbf0f055ea79e4994f"/>
+</manifest>
